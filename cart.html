@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shopping Cart - Gels By Emy</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+.cart-item{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:white;
+padding:20px;
+margin:20px 0;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.qty button{
+padding:6px 12px;
+border:none;
+background:#ff9ec4;
+color:white;
+cursor:pointer;
+border-radius:8px;
+margin:0 5px;
+}
+
+.remove{
+background:#ff5d7a;
+color:white;
+border:none;
+padding:10px 18px;
+border-radius:10px;
+cursor:pointer;
+}
+
+.total{
+font-size:25px;
+font-weight:bold;
+margin:30px 0;
+}
+
+.checkout-btn{
+display:inline-block;
+background:#ff8fb7;
+padding:15px 30px;
+color:white;
+text-decoration:none;
+border-radius:30px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<section class="products">
+
+<div class="page-header">
+
+    <button class="back-btn" onclick="history.back()">
+        ⬅️
+    </button>
+
+    <h2>Shopping Cart 🛒</h2>
+
+</div>
+
+<div id="cart-items"></div>
+
+
+
+
+<a href="checkout.html" class="checkout-btn">
+Checkout
+</a>
+
+<script>
+
+let cart=JSON.parse(localStorage.getItem("cart"))||[];
+
+function tampilkanCart(){
+
+const container=document.getElementById("cart-items");
+
+container.innerHTML="";
+
+let total=0;
+
+cart.forEach((item,index)=>{
+
+   total += Number(item.price) * Number(item.quantity);
+
+  container.innerHTML += `
+<div class="cart-item">
+
+    <div class="qty">
+        <button onclick="kurang(${index})">-</button>
+        <span>${item.quantity}</span>
+        <button onclick="tambah(${index})">+</button>
+    </div>
+
+    <div class="product-info">
+        <h3>${item.name}</h3>
+        <p>Rp ${item.price.toLocaleString("id-ID")}</p>
+    </div>
+
+    <button class="remove" onclick="hapusProduk(${index})">
+        Hapus
+    </button>
+
+</div>
+`;
+
+});
+
+let diskon = 0;
+
+if(total >= 100000){
+    diskon = 10000;
+}
+
+let ongkir = 15000;
+
+document.getElementById("subtotal").innerHTML =
+"Rp " + total.toLocaleString("id-ID");
+
+document.getElementById("diskon").innerHTML =
+"Rp " + diskon.toLocaleString("id-ID");
+
+document.getElementById("ongkir").innerHTML =
+"Rp " + ongkir.toLocaleString("id-ID");
+
+document.getElementById("totalBayar").innerHTML =
+"Rp " + (total - diskon + ongkir).toLocaleString("id-ID");
+
+localStorage.setItem("cart",JSON.stringify(cart));
+
+}
+
+function tambah(index){
+
+    cart[index].quantity++;
+
+    localStorage.setItem("cart",JSON.stringify(cart));
+
+    tampilkanCart();
+
+}
+
+function kurang(index){
+
+    if(cart[index].quantity>1){
+
+        cart[index].quantity--;
+
+    }else{
+
+        cart.splice(index,1);
+
+    }
+
+    localStorage.setItem("cart",JSON.stringify(cart));
+
+    tampilkanCart();
+
+}
+
+function hapusProduk(index){
+
+    cart.splice(index,1);
+
+    localStorage.setItem("cart", JSON.stringify(cart));
+
+    tampilkanCart();
+
+}
+
+tampilkanCart();
+
+</script>
+
+</body>
+</html>

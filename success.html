@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Pesanan Berhasil</title>
+
+<style>
+
+body{
+    font-family:Arial,sans-serif;
+    background:#fff5f8;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.container{
+    width:90%;
+    max-width:600px;
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+h1{
+    color:#ff69a6;
+    text-align:center;
+}
+
+.card{
+    background:#fff5f8;
+    padding:20px;
+    border-radius:15px;
+    margin:15px 0;
+}
+
+.status{
+    color:green;
+    font-weight:bold;
+}
+
+.btn{
+    display:block;
+    text-align:center;
+    text-decoration:none;
+    padding:15px;
+    border-radius:10px;
+    margin-top:15px;
+    color:white;
+    font-weight:bold;
+}
+
+.belanja{
+    background:#ff8fb7;
+}
+
+.pesanan{
+    background:#555;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🎉 Pembayaran Berhasil!</h1>
+
+<p style="text-align:center;">
+Terima kasih telah berbelanja di <b>Gels By Emy</b> 💅✨
+</p>
+
+<div class="card">
+
+<h3>📦 Detail Pesanan</h3>
+
+<p>
+<b>Nomor Pesanan:</b>
+<span id="nomorPesanan"></span>
+</p>
+
+<p><b>Status:</b>
+<span class="status">Sedang Diproses</span>
+</p>
+
+<p><b>Estimasi Pengiriman:</b> 2 - 4 Hari Kerja</p>
+
+</div>
+
+<div class="card">
+
+<h3>💌 Terima Kasih</h3>
+
+<p>
+Pesanan kamu telah kami terima dan sedang dipersiapkan.
+Kami akan segera mengirimkan produk terbaik untukmu.
+</p>
+
+</div>
+
+<a href="index.html" class="btn belanja">
+🛍️ Belanja Lagi
+</a>
+
+<a href="pesanan.html" class="btn pesanan">
+📋 Lihat Pesanan
+</a>
+
+</div>
+<script>
+
+document.getElementById("nomorPesanan").innerHTML =
+localStorage.getItem("nomorPesanan");
+
+</script>
+
+</body>
+</html>
