@@ -1,0 +1,284 @@
+ <!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Checkout - Gels By Emy</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+.checkout-container{
+    width:90%;
+    max-width:600px;
+    margin:100px auto;
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.checkout-container h2{
+    text-align:center;
+    margin-bottom:20px;
+    color:#ff8fb7;
+}
+
+.checkout-container input,
+.checkout-container textarea,
+.checkout-container select{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:1px solid #ddd;
+    border-radius:10px;
+}
+
+.checkout-container button{
+    width:100%;
+    padding:15px;
+    border:none;
+    border-radius:10px;
+    background:#ff8fb7;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.checkout-container button:hover{
+    background:#ff6fa7;
+}
+
+#totalCheckout{
+    font-size:20px;
+    font-weight:bold;
+    text-align:center;
+    margin:20px 0;
+}
+.card{
+    width:100%;
+    background:#fff5f8;
+    padding:25px 30px;
+    border-radius:15px;
+    margin-bottom:20px;
+}
+.card h3{
+    margin-bottom:15px;
+    color:#444;
+}
+
+.card p{
+    margin:10px 0;
+}
+
+.produk-item{
+    display:flex;
+    align-items:center;
+    gap:20px;
+    width:100%;
+    padding:20px 0;
+}
+
+.produk-item img{
+    width:120px;
+    height:120px;
+    object-fit:cover;
+    border-radius:12px;
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="checkout-container">
+
+<div class="top-back">
+    <button type="button" onclick="history.back()">
+        ⬅️
+    </button>
+</div>
+
+<h2>💳 Checkout Gels By Emy</h2>
+
+
+<div class="card">
+
+    <h3>📦 Produk Pesanan</h3>
+
+   <div id="checkoutItems"></div>
+                                     
+</div>
+
+<form id="checkoutForm">
+
+<div class="card">
+<h3>👤 Data Pembeli</h3>
+
+<input type="text" placeholder="Nama Lengkap" required>
+
+<input type="text" placeholder="Nomor HP" required>
+
+<textarea placeholder="Alamat Lengkap" required></textarea>
+</div>
+
+<div class="card">
+<h3>🚚 Pilih Pengiriman</h3>
+
+<select id="pengiriman" required>
+    <option value="10000">JNE Reguler (Rp10.000)</option>
+    <option value="15000" selected>J&T Express (Rp15.000)</option>
+    <option value="20000">SiCepat BEST (Rp20.000)</option>
+</select>
+</div>
+
+<div class="card">
+<h3>💳 Metode Pembayaran</h3>
+
+<select required>
+    <option>QRIS</option>
+    <option>Transfer Bank</option>
+    <option>Dana</option>
+    <option>COD</option>
+</select>
+</div>
+
+<div class="card">
+<h3>🎟 Voucher</h3>
+
+<input type="text" placeholder="Masukkan kode voucher">
+</div>
+
+<div class="card">
+
+<h3>🧾 Ringkasan Pembayaran</h3>
+
+<p>Subtotal : <span id="subtotal">Rp0</span></p>
+
+<p>Diskon : <span id="diskon">Rp0</span></p>
+
+<p>Ongkir : <span id="ongkir">Rp0</span></p>
+
+<hr>
+
+<h2>Total Bayar : <span id="totalBayar">Rp0</span></h2>
+
+</div>
+
+<button type="submit">
+🩷 Bayar Sekarang
+</button>
+
+</form>
+
+</div>
+
+<script>
+
+let cart = JSON.parse(localStorage.getItem("cart")) || [];
+console.log(cart);
+
+cart.forEach(item => {
+
+    let gambar = "";
+
+    if(item.name == "Hot Red Set")
+    gambar = "https://i.pinimg.com/1200x/48/0e/19/480e198212ba34c8848a98c3096b825d.jpg";
+
+    if(item.name == "Summer Set")
+   gambar = "https://i.pinimg.com/736x/25/4c/89/254c8987077e94326ddb43a1e3d3ef9e.jpg";
+
+    if(item.name == "cherry Cute Set")
+    gambar = "https://i.pinimg.com/1200x/f5/f7/7e/f5f77eed37cd36760dd3cc42d0131f43.jpg";
+
+    if(item.name == "Bunny 3D Set")
+    gambar = "https://i.pinimg.com/1200x/e2/a7/ad/e2a7add3991ddee0981c4f3d8469f477.jpg";
+
+    if(item.name == "Red Snake Set")
+    gambar = "https://i.pinimg.com/736x/5b/39/f8/5b39f8027f47367a30a1b11cf2afcbd0.jpg";
+
+    if(item.name == "Bakery Set")
+    gambar = "https://i.pinimg.com/736x/23/57/74/23577433a9b98f8c65e50f65da492f0d.jpg";
+
+    if(item.name == "Polkadot Set")
+    gambar = "https://i.pinimg.com/736x/9e/0f/d0/9e0fd0c0a88ec41d53af2ef28d55ce9c.jpg";
+
+    if(item.name == "Leopard Set")
+    gambar = "https://i.pinimg.com/736x/51/4e/8d/514e8d4147a09ba02f29bee418ede939.jpg";
+
+    if(item.name == "Strawberry Set")
+    gambar = "https://i.pinimg.com/1200x/48/0e/19/480e198212ba34c8848a98c3096b825d.jpg";
+    document.getElementById("checkoutItems").innerHTML += `
+    <div class="produk-item">
+
+        <img src="${gambar}" alt="${item.name}">
+
+        <div class="product-info">
+            <h4>${item.name}</h4>
+            <p>Jumlah : ${item.quantity}</p>
+            <p>Rp ${(item.price * item.quantity).toLocaleString("id-ID")}</p>
+        </div>
+
+    </div>
+    <hr>
+    `;
+
+});
+
+let subtotal = 0;
+
+cart.forEach(item => {
+   subtotal += Number(item.price) * Number(item.quantity);
+});
+
+let diskon = subtotal >= 100000 ? 10000 : 0;
+
+const pengiriman = document.getElementById("pengiriman");
+
+function hitungTotal() {
+
+    let ongkir = parseInt(pengiriman.value);
+
+    let total = subtotal - diskon + ongkir;
+
+    document.getElementById("subtotal").innerHTML =
+    "Rp " + subtotal.toLocaleString("id-ID");
+
+    document.getElementById("diskon").innerHTML =
+    "Rp " + diskon.toLocaleString("id-ID");
+
+    document.getElementById("ongkir").innerHTML =
+    "Rp " + ongkir.toLocaleString("id-ID");
+
+    document.getElementById("totalBayar").innerHTML =
+    "Rp " + total.toLocaleString("id-ID");
+}
+
+hitungTotal();
+
+pengiriman.addEventListener("change", hitungTotal);
+
+document.getElementById("checkoutForm").addEventListener("submit", function(e){
+
+    e.preventDefault();
+
+    // Buat nomor pesanan otomatis
+    let nomorPesanan = "#GBE" + Date.now();
+
+    // Simpan ke localStorage
+    localStorage.setItem("nomorPesanan", nomorPesanan);
+
+    // Kosongkan keranjang
+    localStorage.removeItem("cart");
+
+    // Pindah ke halaman sukses
+    window.location.href = "success.html";
+
+});
+
+</script>
+
+</body>
+</html>
