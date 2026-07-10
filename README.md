@@ -1,5 +1,5 @@
 # ZahramaulidiaY
-# 💅 Gels By Emy
+# Gels By Emy 💅
 
 ## Business Overview
 
@@ -9,64 +9,64 @@
 
 ### Deskripsi Bisnis
 
-Gels By Emy merupakan website e-commerce yang menjual berbagai produk Press On Nails dengan desain unik, estetik, dan mengikuti tren kecantikan terkini. Website ini dirancang untuk memberikan kemudahan kepada pelanggan dalam mencari produk, melihat detail produk, menambahkan produk ke keranjang, melakukan checkout, dan menyelesaikan proses pembelian secara online.
+Gels By Emy adalah bisnis yang menjual berbagai produk press on nails dengan desain yang modern, estetik, dan berkualitas tinggi. Produk dirancang untuk memberikan solusi kecantikan kuku yang praktis tanpa harus pergi ke salon.
 
 ### Value Proposition
 
-Gels By Emy menawarkan produk Press On Nails berkualitas dengan desain yang menarik, harga yang terjangkau, serta proses pembelian yang mudah dan praktis. Pelanggan dapat memperoleh tampilan kuku yang cantik tanpa harus mengunjungi salon kecantikan.
+* Desain unik dan trendi.
+* Harga terjangkau.
+* Mudah digunakan dan dilepas.
+* Cocok untuk berbagai acara.
+* Pengiriman cepat dan aman.
 
 ---
 
-## Target Market dan Segmentasi Pelanggan
+## Target Market & Segmentasi Pelanggan
 
 ### Target Market
 
-Target utama Gels By Emy adalah perempuan yang memiliki minat pada bidang kecantikan, fashion, dan nail art.
+* Remaja hingga dewasa muda usia 15–35 tahun.
+* Pelajar, mahasiswa, dan pekerja.
+* Pecinta fashion dan kecantikan.
 
 ### Segmentasi Pelanggan
 
 #### Demografis
 
-* Perempuan usia 15–35 tahun
-* Pelajar
-* Mahasiswa
-* Karyawan dan pekerja muda
-
-#### Geografis
-
-* Seluruh wilayah Indonesia
+* Perempuan usia 15–35 tahun.
+* Tinggal di daerah perkotaan.
 
 #### Psikografis
 
-* Menyukai tren kecantikan
-* Aktif di media sosial
-* Menginginkan solusi kecantikan yang praktis
+* Menyukai fashion dan kecantikan.
+* Aktif di media sosial.
+* Mengikuti tren terkini.
 
-#### Perilaku Konsumen
+#### Perilaku
 
-* Sering berbelanja secara online
-* Tertarik pada produk kecantikan yang unik dan estetik
-* Memperhatikan ulasan dan testimoni sebelum membeli
+* Sering berbelanja online.
+* Mencari produk praktis dengan harga terjangkau.
 
 ---
 
 ## Analisis Pasar dan Kompetitor
 
-Permintaan terhadap produk kecantikan semakin meningkat seiring perkembangan media sosial dan tren fashion. Press On Nails menjadi alternatif yang praktis dibandingkan melakukan nail art di salon.
+### Kondisi Pasar
+
+Permintaan produk kecantikan khususnya press on nails terus meningkat karena memberikan alternatif yang lebih praktis dibandingkan manicure di salon.
 
 ### Kompetitor
 
-* Toko Press On Nails di Shopee
-* TikTok Shop
-* Marketplace online lainnya
-* Salon Nail Art lokal
+* Press on nails seller di Shopee.
+* Press on nails seller di TikTok Shop.
+* Brand lokal press on nails lainnya.
 
 ### Keunggulan Kompetitif
 
-* Tampilan website yang menarik dan mudah digunakan
-* Produk dengan desain beragam
-* Harga yang kompetitif
-* Sistem pembelian yang sederhana dan cepat
+* Tampilan website sendiri.
+* Desain produk eksklusif.
+* Sistem pemesanan yang mudah.
+* Informasi produk yang lengkap.
 
 ---
 
@@ -84,35 +84,33 @@ Permintaan terhadap produk kecantikan semakin meningkat seiring perkembangan med
 * Leopard Set
 * Strawberry Set
 
-### Strategi Katalog Produk
+### Strategi Katalog
 
-Setiap produk dilengkapi dengan:
+* Menampilkan foto produk berkualitas tinggi.
+* Menampilkan harga produk.
+* Menampilkan rating produk.
+* Menampilkan jumlah produk terjual.
+* Menyediakan fitur pencarian produk.
 
-* Foto produk
-* Nama produk
-* Harga
-* Rating pelanggan
-* Jumlah produk terjual
-* Tombol Add to Cart
-* Tombol Beli Sekarang
+### Visual Produk
 
-Visual produk ditampilkan menggunakan gambar berkualitas tinggi untuk meningkatkan minat pelanggan.
+Setiap produk dilengkapi dengan gambar yang menarik agar pelanggan lebih mudah memilih produk yang sesuai.
 
 ---
 
 ## Model Bisnis dan Revenue Stream
 
-### Model Bisnis
+### Business Model
 
 Business to Consumer (B2C)
 
 ### Revenue Stream
 
-Sumber pendapatan berasal dari:
+Pendapatan diperoleh dari:
 
-* Penjualan produk Press On Nails
-* Produk edisi khusus (limited edition)
-* Paket promosi dan bundling produk
+* Penjualan press on nails.
+* Penjualan desain edisi khusus.
+* Paket bundling produk.
 
 ---
 
@@ -120,20 +118,24 @@ Sumber pendapatan berasal dari:
 
 ### Strategi Harga
 
-Harga produk berkisar antara Rp45.000 hingga Rp60.000 sesuai desain dan tingkat detail produk.
+Harga ditentukan berdasarkan:
 
-### Strategi Promosi
+* Biaya produksi.
+* Tingkat kesulitan desain.
+* Harga pasar kompetitor.
 
-* Promosi melalui Instagram
-* Promosi melalui TikTok
-* Menampilkan testimoni pelanggan
-* Promosi musiman dan event tertentu
+### Promosi
 
-### Strategi Diskon
+* Instagram Marketing.
+* TikTok Marketing.
+* Customer Testimonial.
+* Discount Campaign.
 
-* Diskon Rp10.000 untuk pembelian minimal Rp100.000
-* Voucher promo
-* Promo gratis ongkir pada periode tertentu
+### Diskon
+
+* Diskon pembelian minimum Rp100.000.
+* Promo musiman.
+* Voucher pelanggan setia.
 
 ---
 
@@ -142,70 +144,183 @@ Harga produk berkisar antara Rp45.000 hingga Rp60.000 sesuai desain dan tingkat 
 ### Alur Checkout
 
 1. Pelanggan memilih produk.
-2. Produk dimasukkan ke Shopping Cart.
+2. Produk masuk ke Shopping Cart.
 3. Pelanggan mengisi data diri.
-4. Memilih metode pengiriman.
-5. Memilih metode pembayaran.
-6. Sistem menampilkan ringkasan pembayaran.
-7. Pesanan berhasil dibuat.
+4. Pelanggan memilih metode pengiriman.
+5. Sistem menghitung total pembayaran.
+6. Pelanggan melakukan pembayaran.
 
 ### Simulasi Payment Gateway
 
-Website menggunakan simulasi payment gateway **Midtrans (Dummy)**.
+Menggunakan simulasi pembayaran:
 
-Metode pembayaran yang tersedia:
-
+* Midtrans (Dummy)
 * QRIS
 * Transfer Bank
 * Dana
-* COD (Cash on Delivery)
+* COD
 
 ---
 
-## Rencana SEO, Keamanan, dan Pemeliharaan
+## Rencana SEO
 
-### SEO (Search Engine Optimization)
+Strategi SEO yang digunakan:
 
-* Menggunakan kata kunci seperti "Press On Nails", "Nail Art", dan "Kuku Cantik".
-* Optimasi gambar produk.
-* Struktur halaman yang mudah dibaca mesin pencari.
-* Penggunaan judul dan deskripsi yang relevan.
+* Penggunaan kata kunci seperti:
+
+  * Press On Nails
+  * Nails Art
+  * Cute Nails
+  * Handmade Press On Nails
+
+* Optimasi judul halaman.
+
+* Optimasi deskripsi produk.
+
+* Penggunaan gambar berkualitas tinggi.
+
+* Mobile Friendly Design.
+
+---
+
+## Keamanan dan Pemeliharaan
 
 ### Keamanan
 
-* Validasi form checkout.
-* Penyimpanan data menggunakan Local Storage.
-* Siap dikembangkan menggunakan HTTPS.
+* Validasi input pengguna.
+* Penggunaan HTTPS saat deployment.
+* Backup data berkala.
+* Perlindungan terhadap spam.
 
 ### Pemeliharaan
 
-* Update produk secara berkala.
-* Memperbarui harga dan promosi.
-* Memastikan seluruh fitur website berjalan dengan baik.
+* Update katalog produk.
+* Perbaikan bug secara berkala.
+* Monitoring performa website.
+* Pembaruan konten promosi.
 
 ---
 
-## Penggunaan Data Analytics
+## Data Analytics
 
-Data analytics digunakan untuk membantu pengambilan keputusan bisnis, antara lain:
+Data yang dapat dianalisis:
 
-* Mengetahui produk yang paling diminati pelanggan.
-* Mengukur jumlah transaksi penjualan.
-* Menganalisis efektivitas promosi.
-* Memahami perilaku pelanggan.
-* Membantu pengembangan strategi pemasaran di masa mendatang.
+* Produk paling sering dibeli.
+* Jumlah transaksi.
+* Produk paling banyak dicari.
+* Total pendapatan.
+* Tingkat konversi pembelian.
+
+Data analytics digunakan untuk:
+
+* Menentukan produk populer.
+* Menentukan strategi promosi.
+* Mengoptimalkan stok produk.
+* Meningkatkan pengalaman pelanggan.
 
 ---
 
-## Teknologi yang Digunakan
+# Technical Explanation
 
-* HTML
-* CSS
+## Front-End Technology
+
+Website dikembangkan menggunakan:
+
+* HTML5
+* CSS3
 * JavaScript
-* Local Storage
 
----
+## Struktur Website
 
-## Developer
+### Home Page
 
-Website ini dibuat sebagai proyek E-Commerce Digital Business dengan brand **Gels By Emy**.
+Menampilkan:
+
+* Hero Banner
+* Product Catalog
+* About Us
+* Testimonial
+* Contact Information
+
+### Product Catalog
+
+Fitur:
+
+* Daftar produk.
+* Gambar produk.
+* Harga produk.
+* Rating produk.
+* Jumlah produk terjual.
+* Tombol Add to Cart.
+* Tombol Beli Sekarang.
+
+### Search Feature
+
+Menggunakan JavaScript untuk memfilter produk secara real-time berdasarkan nama produk.
+
+### Shopping Cart
+
+Fitur:
+
+* Menambah produk.
+* Mengurangi jumlah produk.
+* Menghapus produk.
+* Menghitung subtotal otomatis.
+
+### Checkout System
+
+Fitur:
+
+* Data pembeli.
+* Pilihan pengiriman.
+* Pilihan pembayaran.
+* Ringkasan pembayaran.
+* Perhitungan total otomatis.
+
+### Customer Testimonial
+
+Menampilkan ulasan pelanggan menggunakan slider otomatis.
+
+### Contact Page
+
+Menyediakan:
+
+* Alamat toko.
+* WhatsApp.
+* Instagram.
+* TikTok.
+
+## Data Storage
+
+Website menggunakan Local Storage browser untuk menyimpan:
+
+* Data keranjang belanja.
+* Jumlah produk.
+* Nomor pesanan sementara.
+
+## Responsive Design
+
+Website menggunakan CSS Media Query sehingga dapat berjalan dengan baik pada:
+
+* Desktop
+* Tablet
+* Smartphone
+
+## Security Consideration
+
+Penerapan keamanan meliputi:
+
+* Validasi form.
+* Sanitasi input.
+* Penggunaan HTTPS.
+* Backup berkala.
+
+## Deployment
+
+Website dapat dipublikasikan menggunakan:
+
+* GitHub Pages
+* Netlify
+* Vercel
+
+Source code dikelola menggunakan Git dan GitHub untuk memudahkan version control dan kolaborasi pengembangan.
